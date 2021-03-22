@@ -37,7 +37,7 @@ def main(
             }
         )
 
-    render_content = template.render(configs=configs)
+    render_content = template.render(configs=configs, )
     with open(output_path, "w") as f:
         f.write(render_content)
 
